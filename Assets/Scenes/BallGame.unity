@@ -2997,7 +2997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db28bf5c0f9f50a40a61b10844f87446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScorePanel: {fileID: 0}
+  ScorePanel: {fileID: 2061410577}
 --- !u!1 &857500634
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,6 +7452,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1438071500354848949, guid: 808d815e69e6d6d47b3673ad430c93a6, type: 3}
   m_PrefabInstance: {fileID: 2061410575}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2061410577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2345145284367628938, guid: 808d815e69e6d6d47b3673ad430c93a6, type: 3}
+  m_PrefabInstance: {fileID: 2061410575}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2102629066
 GameObject:
   m_ObjectHideFlags: 0
