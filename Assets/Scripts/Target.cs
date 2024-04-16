@@ -10,6 +10,7 @@ public class Target: MonoBehaviour
         if (other.gameObject.CompareTag("Ball"))
         {
             Debug.Log("Point Scored !");
+            GameObject.Find("UIManager").GetComponent<UIManager>().UpdateScore.Invoke(PointsValue);
         }
     }
 }
